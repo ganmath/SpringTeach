@@ -1,4 +1,4 @@
-package com.example.cashcard;
+package com.example.demo1;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.json.JsonTest;
 import org.springframework.boot.test.json.JacksonTester;
+
+import com.example.demo1.CashCard;
 
 @JsonTest
 public class CashCardJsonTest {
